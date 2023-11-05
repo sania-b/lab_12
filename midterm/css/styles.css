@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+
+}
+#content {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-image:"music.png" ; 
+    padding: 20px;
+    text-align: center; 
+}
+
+nav {
+    background-color: black;
+	display:center;
+    
+}
+
+
+
+a {
+	color: white;
+	font-family: Arial, Helvetica, Lucida;
+}
+
+p{
+	font-family:Times,Arial,Lucida;
+	text-size:9px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.section {
+    flex: 1; 
+    text-align: center; 
+}
+
+
+.section img {
+    max-width: 100%;
+}
+
+
+.section p {
+    margin-top: 20px;
+}
+
+footer{
+	font-size:5;
+}

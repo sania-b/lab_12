@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Strike a Chord Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+        .side-by-side {
+            display: flex; 
+            align-items: center;
+        }
+
+        .side-by-side img {
+            max-width: 50%; 
+            margin-right: 20px;
+        }
+        
+        .side-by-side .text {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        @media (max-width: 480px) {
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+            .centered-content h1 {
+                margin-bottom: 20px;
+            }
+
+            h1{
+                text-align: center;
+                font-size:15px;
+            }
+            
+            footer {
+                text-align: center;
+            }
+            
+            p{
+                font-size:10px;
+            }
+        }
+        
+        @media (min-width: 1201px) {
+            nav {
+                text-align: center;
+            }
+
+            nav a {
+                text-decoration: none;
+                margin: 0 10px;
+            }
+
+            .centered-content h1 {
+                margin-bottom: 20px;
+            }
+
+            footer {
+                text-align: center;
+            }
+            
+            h1{
+                text-align: center;
+                font-size:15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <img src="music.png" alt="Woman Playing Violin" width="1280" height="411">
+        </header>
+        <nav>
+            <div class="side-by-side-links">
+                <a href="about_me.html">Instructors</a>
+                <a href="resume.html">Prices</a>
+                <a href="project.html">Methodology</a>
+                <a href="contact.html">Instruments</a>
+                <a href="contact.html">Testimonials</a>
+                <a href="contact.html">Student Showcase</a>
+            </div>
+        </nav>
+        <main>
+            <div class="side-by-side">
+                <img src="sheetMusic.png" alt="Photo of sheet music" width="400" height="400">
+                <div class="text">
+                    <p>
+                        <!-- Your content here -->
+                    </p>
+                    <p>
+                        <!-- Your content here -->
+                    </p>
+                </div>
+            </div>
+            <div class="centered-content">
+                <h1>Our Instructors</h1>
+            </div>
+            <div class="side-by-side">
+                <div>
+                    <img src="violin-instructor.jpg" alt="Photo of violin instructor" width="200" height="240" style="border: 2px dotted black;">
+                    <h5>Sandra Jones</h5>
+                    <p>
+                        <!-- Your content here -->
+                    </p>
+                </div>
+                <div>
+                    <img src="piano-instructor.jpg" alt="Photo of piano instructor" width="200" height="240" style="border: 2px dotted black;">
+                    <h5>Christine Smith</h5>
+                    <p>
+                        <!-- Your content here -->
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Copyright Just Desserts, LLC 2023.</p>
+            <p>Image by Gerd Altman from Pixabay. Image by Oberholser Venita from Pixabay.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
